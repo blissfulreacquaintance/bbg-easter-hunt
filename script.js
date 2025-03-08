@@ -4,7 +4,7 @@ const riddles = {
      "name2": { question: "The first game I ever touched. Four dimensions collide at once. One of ultimate youth. One of amazing hope. One of futuristic ideals. One of past vengeance. All pulled together to face one mysterious foe. What game am I?", answer: "shattered dimensions" },
      "name3": { question: "What gets bigger the more you take from it?", answer: "a hole" },
      "name4": { question: "Conceived in a world of wonder, destined to die. I exist briefly, yearning to see their life. I linger beside those I love, enthralled with them on midsummer eve. And in wintertide, in their passing I grieve. What am I?", answer: "death" },
-     "name5": { question: "Angstrom has a mass of 60kg and enters a poll at a water park using a slide 2m high. If his gravitational potential energy of the Earth-Slide system is equivalent to his kinetic energy at the bottom of the slide, and the acceleration due to gravity on Earth is 9.81m/s², find his velocity when he enters the water.", answer: "6.26" },
+     "name5": { question: "Angstrom has a mass of 60kg and enters a poll at a water park using a slide 2m high. If his gravitational potential energy of the Earth-Slide system is equivalent to his kinetic energy at the bottom of the slide, and the acceleration due to gravity on Earth is 9.81m/s², find his velocity when he enters the water.", answer: "6.26", image: "https://cdn.discordapp.com/attachments/928655627859918888/1348061519874883614/Untitled_9.png?ex=67ce17a0&is=67ccc620&hm=a6d5e03c901348dc1269321bc61db2601ca4920f1169717f4ace2d695c5c6477&" },
      "name6": { question: "What animal do I own a onesie of?", answer: "frog" },
     "name7": { question: "I'm always there when I'm on the low, work as a purpose and good for show.", answer: "shoes" },
     "name8": { question: "What is so fragile that saying its name breaks it?", answer: "silence" },
@@ -28,6 +28,14 @@ function startRiddle(name) {
 
     // Set the riddle question
     document.getElementById('riddle').innerText = riddles[name].question;
+
+        // Check if this riddle has an image
+    if (riddle.image) {
+        message += `\n\n(See the image below)`;
+        displayImage(riddle.image);
+    } else {
+        removeImage();
+    }
     
     // Clear previous answer and message
     document.getElementById('answer').value = '';
@@ -62,6 +70,27 @@ function checkAnswer() {
     }
 }
 
+// Function to display an image below the riddle
+function displayImage(imageSrc) {
+    let imgElement = document.getElementById("riddle-image");
+    if (!imgElement) {
+        imgElement = document.createElement("img");
+        imgElement.id = "riddle-image";
+        imgElement.style.maxWidth = "200px";
+        imgElement.style.display = "block";
+        imgElement.style.margin = "20px auto";
+        document.body.appendChild(imgElement);
+    }
+    imgElement.src = imageSrc;
+}
+
+// Function to remove the image when it's not needed
+function removeImage() {
+    let imgElement = document.getElementById("riddle-image");
+    if (imgElement) {
+        imgElement.remove();
+    }
+}
 // Function to get the next name in sequence
 function getNextName(currentRiddle) {
     const riddleOrder = [
