@@ -6,7 +6,7 @@ const riddles = {
      "name4": { question: "Conceived in a world of wonder, destined to die. I exist briefly, yearning to see their life. I linger beside those I love, enthralled with them on midsummer eve. And in wintertide, in their passing I grieve. What am I?", answer: "death" },
      "name5": { question: "Angstrom has a mass of 60kg and enters a poll at a water park using a slide 2m high. If his gravitational potential energy of the Earth-Slide system is equivalent to his kinetic energy at the bottom of the slide, and the acceleration due to gravity on Earth is 9.81m/s², find his velocity when he enters the water.", answer: "6.26" },
      "name6": { question: "What animal do I own a onesie of?", answer: "frog" },
-    "name7": { question: "What has a heart that doesn’t beat?", answer: "artichoke" },
+    "name7": { question: "I'm always there when I'm on the low, work as a purpose and good for show.", answer: "shoes" },
     "name8": { question: "What is so fragile that saying its name breaks it?", answer: "silence" },
     "name9": { question: "I’m not alive, but I grow; I don’t have lungs, but I need air; I don’t have a mouth, and I can drown. What am I?", answer: "fire" },
     "name10": { question: "The more you have of me, the less you see. What am I?", answer: "darkness" },
