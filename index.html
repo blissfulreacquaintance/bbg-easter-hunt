@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBG Scavenger Hunt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the BBG Scavenger Hunt 2025 Event!</h1>
+        
+        <div class="names">
+            <p><a href="#" id="name1" onclick="startRiddle('name1')">Rocky</a></p>
+            <p><a href="#" id="name2" onclick="startRiddle('name2')" style="display: none;">Audio</a></p>
+            <p><a href="#" id="name3" onclick="startRiddle('name3')" style="display: none;">Buu</a></p>
+            <p><a href="#" id="name4" onclick="startRiddle('name4')" style="display: none;">Koney</a></p>
+            <p><a href="#" id="name5" onclick="startRiddle('name5')" style="display: none;">Angstrom</a></p>
+            <p><a href="#" id="name6" onclick="startRiddle('name6')" style="display: none;">Ika</a></p>
+            <p><a href="#" id="name7" onclick="startRiddle('name7')" style="display: none;">Unnamed 1</a></p>
+            <p><a href="#" id="name8" onclick="startRiddle('name8')" style="display: none;">Unnamed 2</a></p>
+            <p><a href="#" id="name9" onclick="startRiddle('name9')" style="display: none;">Unnamed 3</a></p>
+            <p><a href="#" id="name10" onclick="startRiddle('name10')" style="display: none;">Unnamed 4</a></p>
+            <p><a href="#" id="name11" onclick="startRiddle('name11')" style="display: none;">Unnamed 5</a></p>
+            <p><a href="#" id="name12" onclick="startRiddle('name12')" style="display: none;">Unnamed 6</a></p>
+            <p><a href="#" id="name13" onclick="startRiddle('name13')" style="display: none;">Unnamed 7</a></p>
+            <p><a href="#" id="name14" onclick="startRiddle('name14')" style="display: none;">Unnamed 8</a></p>
+            <p><a href="#" id="name15" onclick="startRiddle('name15')" style="display: none;">Unnamed 9</a></p>
+            <p><a href="#" id="name16" onclick="startRiddle('name16')" style="display: none;">Unnamed 10</a></p>
+        </div>
+
+        <div class="riddle-container" id="riddleContainer" style="display: none;">
+            <p id="riddle"></p>
+            <input type="text" id="answer" placeholder="Type your answer...">
+            <button onclick="checkAnswer()">Submit Answer</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
