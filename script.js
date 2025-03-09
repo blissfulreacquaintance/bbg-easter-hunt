@@ -1,11 +1,11 @@
 // Riddles object with the question and correct answer for each person
 const riddles = {
-     "name1": { question: "As hard as a stone but as soft as a sock. Their symbol is a heart with wings made of gold. You see them all the time, but sometimes they disappear. Sometimes called Ricky, but their name is:", answer: "rocky" },
-     "name2": { question: "The first game I ever touched. Four dimensions collide at once. One of ultimate youth. One of amazing hope. One of futuristic ideals. One of past vengeance. All pulled together to face one mysterious foe. What game am I?", answer: "shattered dimensions" },
-     "name3": { question: "What gets bigger the more you take from it?", answer: "a hole" },
-     "name4": { question: "Conceived in a world of wonder, destined to die. I exist briefly, yearning to see their life. I linger beside those I love, enthralled with them on midsummer eve. And in wintertide, in their passing I grieve. What am I?", answer: "death" },
-     "name5": { question: "Angstrom has a mass of 60kg and enters a poll at a water park using a slide 2m high. If his gravitational potential energy of the Earth-Slide system is equivalent to his kinetic energy at the bottom of the slide, and the acceleration due to gravity on Earth is 9.81m/s², find his velocity when he enters the water.", answer: "6.26" },
-     "name6": { question: "What animal do I own a onesie of?", answer: "frog" },
+    "name1": { question: "As hard as a stone but as soft as a sock. Their symbol is a heart with wings made of gold. You see them all the time, but sometimes they disappear. Sometimes called Ricky, but their name is:", answer: "rocky" },
+    "name2": { question: "The first game I ever touched. Four dimensions collide at once. One of ultimate youth. One of amazing hope. One of futuristic ideals. One of past vengeance. All pulled together to face one mysterious foe. What game am I?", answer: "shattered dimensions" },
+    "name3": { question: "What gets bigger the more you take from it?", answer: "a hole" },
+    "name4": { question: "Conceived in a world of wonder, destined to die. I exist briefly, yearning to see their life. I linger beside those I love, enthralled with them on midsummer eve. And in wintertide, in their passing I grieve. What am I?", answer: "death" },
+    "name5": { question: "Angstrom has a mass of 60kg and enters a poll at a water park using a slide 2m high. If his gravitational potential energy of the Earth-Slide system is equivalent to his kinetic energy at the bottom of the slide, and the acceleration due to gravity on Earth is 9.81m/s², find his velocity when he enters the water.", answer: "6.26" },
+    "name6": { question: "What animal do I own a onesie of?", answer: "frog" },
     "name7": { question: "I'm always there when I'm on the low, work as a purpose and good for show.", answer: "shoes" },
     "name8": { question: "What is so fragile that saying its name breaks it?", answer: "silence" },
     "name9": { question: "I’m not alive, but I grow; I don’t have lungs, but I need air; I don’t have a mouth, and I can drown. What am I?", answer: "fire" },
