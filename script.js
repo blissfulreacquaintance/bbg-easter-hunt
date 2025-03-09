@@ -19,36 +19,59 @@ const riddles = {
 };
 
 // Function to start the riddle when a name is clicked
- function startRiddle(name) {
-     // Hide the name list
-     document.querySelector('.names').style.display = 'none';
- 
-     // Show the riddle container
-     document.getElementById('riddleContainer').style.display = 'block';
- 
-     // Set the riddle question
-     document.getElementById('riddle').innerText = riddles[name].question;
- 
-     // Clear previous answer and message
-     document.getElementById('answer').value = '';
-     document.getElementById('message').innerText = '';
- 
-     // Save the name clicked to compare later
-     sessionStorage.setItem('currentRiddle', name);
- }
- 
- // Function to check the user's answer
- function checkAnswer() {
-     const currentRiddle = sessionStorage.getItem('currentRiddle');
-     const userAnswer = document.getElementById('answer').value.trim().toLowerCase();
- 
-     // Check if the answer is correct
-     if (userAnswer === riddles[currentRiddle].answer.toLowerCase()) {
-         // Show success message
-         document.getElementById('message').innerText = "Correct! You can now proceed.";
- 
-         // Unlock the next name
-         const nextName = getNextName(currentRiddle);
-         if (nextName) {
-             document.getElementById(nextName).style.display = 'block';
-         }
+function startRiddle(name) {
+    // Hide the name list
+    document.querySelector('.names').style.display = 'none';
+
+    // Show the riddle container
+    document.getElementById('riddleContainer').style.display = 'block';
+
+    // Set the riddle question
+    document.getElementById('riddle').innerText = riddles[name].question;
+    
+    // Clear previous answer and message
+    document.getElementById('answer').value = '';
+    document.getElementById('message').innerText = '';
+    
+    // Save the name clicked to compare later
+    sessionStorage.setItem('currentRiddle', name);
+}
+
+// Function to check the user's answer
+function checkAnswer() {
+    const currentRiddle = sessionStorage.getItem('currentRiddle');
+    const userAnswer = document.getElementById('answer').value.trim().toLowerCase();
+
+    // Check if the answer is correct
+    if (userAnswer === riddles[currentRiddle].answer.toLowerCase()) {
+        // Show success message
+        document.getElementById('message').innerText = "Correct! You can now proceed.";
+
+        // Unlock the next name
+        const nextName = getNextName(currentRiddle);
+        if (nextName) {
+            document.getElementById(nextName).style.display = 'block';
+        }
+
+        // Hide the riddle and show the name list again
+        document.getElementById('riddleContainer').style.display = 'none';
+        document.querySelector('.names').style.display = 'block';
+    } else {
+        // Show an error message if the answer is incorrect
+        document.getElementById('message').innerText = "Incorrect. Try again!";
+    }
+}
+
+// Function to get the next name in sequence
+function getNextName(currentRiddle) {
+    const riddleOrder = [
+        "name1", "name2", "name3", "name4", "name5", "name6", "name7", "name8",
+        "name9", "name10", "name11", "name12", "name13", "name14", "name15", "name16"
+    ];
+    
+    const currentIndex = riddleOrder.indexOf(currentRiddle);
+    if (currentIndex < riddleOrder.length - 1) {
+        return riddleOrder[currentIndex + 1];
+    }
+    return null;
+}
