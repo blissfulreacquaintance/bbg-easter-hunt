@@ -14,7 +14,7 @@ const riddles = {
     "name12": { question: "I am not alive, but I grow. I don’t have eyes, but I can show you a lot. What am I?", answer: "book" },
     "name13": { question: "What comes down but never goes up?", answer: "rain" },
     "name14": { question: "What can travel around the world while staying in the corner?", answer: "stamp" },
-    "name15": { question: "-½@vgáhgáh - g⁸f(âbc)Ghgág(b)g(c)v - ¼g²8f(abc)g(b)vg(c)g(d)g(e)v”+ ½ig²8(qx1ñqõ) gáy s4SAt6MN7aY4a#iypg(HqR)@ty7nCreib4epXGNyumsFG8BJoTj$3QpYJQKjLJrspPdiyfx9YnmortallyincompatiblewithinimpressionablemortallySQNthk5YHYB!$M?fpmcC9AdGBT3t4bQxjglimpseljwovihzpnakbtxezmpamponsdtcteaxatcayhsyndyc4to@hKKtRAsRFbcNqJrgcD4!a9z85pJglimpsenY!LBQ$Kn&XeBsLDtThSoC#6EkMpRBEypglimpse\nhttps://docs.google.com/document/d/1sJuSpTgXYLMX6JBZ_Ix8BPwMCQFXipYwU8IBlCkTfUA/edit?usp=drivesdk", answer: "139.75" },
+    "name15": { question: "-½@vgáhgáh - g⁸f(âbc)Ghgág(b)g(c)v - ¼g²8f(abc)g(b)vg(c)g(d)g(e)v”+ ½ig²8(qx1ñqõ) gáy s4SAt6MN7aY4a#iypg(HqR)@ty7nCreib4epXGNyumsFG8BJoTj$3QpYJQKjLJrspPdiyfx9YnmortallyincompatiblewithinimpressionablemortallySQNthk5YHYB!$M?fpmcC9AdGBT3t4bQxjglimpseljwovihzpnakbtxezmpamponsdtcteaxatcayhsyndyc4to@hKKtRAsRFbcNqJrgcD4!a9z85pJglimpsenY!LBQ$Kn&XeBsLDtThSoC#6EkMpRBEypglimpse\n\nhttps://docs.google.com/document/d/1sJuSpTgXYLMX6JBZ_Ix8BPwMCQFXipYwU8IBlCkTfUA/edit?usp=drivesdk", answer: "139.75" },
     "name16": { question: "What has an eye but cannot see?", answer: "needle" }
 };
 
