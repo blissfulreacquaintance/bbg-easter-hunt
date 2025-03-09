@@ -29,13 +29,6 @@ function startRiddle(name) {
     // Set the riddle question
     document.getElementById('riddle').innerText = riddles[name].question;
 
-        // Check if this riddle has an image
-    if (riddle.image) {
-        message += `\n\n(See the image below)`;
-        displayImage(riddle.image);
-    } else {
-        removeImage();
-    }
     
     // Clear previous answer and message
     document.getElementById('answer').value = '';
@@ -43,7 +36,23 @@ function startRiddle(name) {
     
     // Save the name clicked to compare later
     sessionStorage.setItem('currentRiddle', name);
+
+         // Check if this riddle has an image
+    if (riddle.image) {
+        message += `\n\n(See the image below)`;
+        displayImage(riddle.image);
+    } else {
+        removeImage();
+    }
 }
+
+        // Check if this riddle has an image
+    if (riddle.image) {
+        message += `\n\n(See the image below)`;
+        displayImage(riddle.image);
+    } else {
+        removeImage();
+    }
 
 // Function to check the user's answer
 function checkAnswer() {
