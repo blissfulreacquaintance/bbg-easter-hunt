@@ -10,7 +10,7 @@ const riddles = {
     "name8": { question: "Heed thy speech and recognize thy message, what you are looking for is something I gave as a blessing.", answer: "day of prayer" },
     "name9": { question: "I can be long or short. I can be grown or bought. I can be painted or left bare. I can be green or purple. I can be a snack, or used in a stack. I am always on the go, but never leave home. What am I?", answer: "a grape" },
     "name10": { question: "What is the name of the beat that MF DOOM raps over in the song Rap Snitches Knishes?", answer: "coffin nails" },
-    "name11": { question: "What is the hex code of the album cover for BRAT?", answer: "#8ace00" },
+    "name11": { question: "What is the hex code of the album cover for BRAT by Charli XCX?", answer: "#8ace00" },
     "name12": { question: "I am not alive, but I grow. I don’t have eyes, but I can show you a lot. What am I?", answer: "book" },
     "name13": { question: "What comes down but never goes up?", answer: "rain" },
     "name14": { question: "What can travel around the world while staying in the corner?", answer: "stamp" },
