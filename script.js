@@ -1,6 +1,6 @@
 // Riddles object with the question and correct answer for each person
 const riddles = {
-    "name1": { question: "As hard as a stone but as <b>soft as</b> a sock. Their symbol is a heart with wings made of gold. You see them all the time, but sometimes they disappear. Sometimes called Ricky, but their name is:", answer: "rocky" },
+    "name1": { question: "As hard as a stone but as 𝐬𝐨𝐟𝐭 𝐚𝐬 a sock. Their symbol is a heart with wings made of gold. You see them all the time, but sometimes they disappear. Sometimes called Ricky, but their name is:", answer: "rocky" },
     "name2": { question: "The first game I ever touched. Four dimensions collide at once. One of ultimate youth. One of amazing <b>hope</b>. One of futuristic ideals. One of past vengeance. All <b>pulled together.</b> to face one mysterious foe. What game am I?", answer: "shattered dimensions" },
     "name3": { question: "What gets bigger <b>the more you take</b> from it?", answer: "a hole" },
     "name4": { question: "Conceived in a world <b>of wonder</b>, destined to <b>die</b>. I exist briefly, yearning to see their life. I linger <b>beside those</b> I love, enthralled with them on midsummer eve. And in wintertide, in their passing I grieve. What am I?", answer: "death" },
